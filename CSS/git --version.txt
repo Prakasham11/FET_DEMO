@@ -1,0 +1,13 @@
+git --version
+git config --global user.name "Prakasham11"
+git config --global user.mail "arunprakash.p@sece.ac.in"
+cd "C:\Users\AK\OneDrive\Desktop\FET"
+git init
+git add .
+git commit -m "My first commit"
+git status
+git remote add origin https://github.com/Prakasham11/GIT-demo.git
+git branch -M main
+git push -u origin main -f
+git log
+git status

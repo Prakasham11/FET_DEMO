@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moving Box</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+
+            position: relative;
+
+            animation-name: moveBox;
+            animation-duration: 4s;
+        }
+
+        @keyframes moveBox {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box"></div>
+
+</body>
+</html>
